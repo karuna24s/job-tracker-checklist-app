@@ -9,7 +9,6 @@ class CreateJobs < ActiveRecord::Migration[5.0]
       t.integer :status
       t.string :point_of_contact
       t.string :job_reference
-      t.integer :user_id
       t.timestamps null: false
     end
   end
