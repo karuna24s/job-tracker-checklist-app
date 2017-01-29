@@ -10,7 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170129035826) do
+ActiveRecord::Schema.define(version: 20170129045604) do
+
+  create_table "checklists", force: :cascade do |t|
+    t.string   "item"
+    t.integer  "job_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "jobs", force: :cascade do |t|
     t.string   "job_title"
