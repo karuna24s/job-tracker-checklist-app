@@ -7,7 +7,7 @@ source 'https://rubygems.org'
 
 gem 'responders'
 
-gem 'active_model_serializers'
+gem 'active_model_serializers', '~> 0.10.0'
 
 gem 'devise'
 
