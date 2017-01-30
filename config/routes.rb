@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  
-end
+
   root 'application#hello'
+  resources :users
   resources :jobs do
     resources :checklists
   end
