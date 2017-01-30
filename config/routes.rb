@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  devise_for :users
+  
+end
   root 'application#hello'
   resources :jobs do
     resources :checklists
