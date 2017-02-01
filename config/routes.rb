@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :items
   root 'application#hello'
   resources :users
   resources :jobs do

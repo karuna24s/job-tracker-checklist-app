@@ -1,7 +1,7 @@
 class ChecklistsController < ApplicationController
   def index
     checklists = Checklist.all
-    render json: checklist
+    render json: checklists
   end
 
   def show
