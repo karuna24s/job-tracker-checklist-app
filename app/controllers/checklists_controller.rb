@@ -37,6 +37,6 @@ class ChecklistsController < ApplicationController
   private
 
   def checklist_params
-    params.require(:checklist).permit(:item, :job_id)
+    params.require(:checklist).permit(:job_id)
   end
 end
