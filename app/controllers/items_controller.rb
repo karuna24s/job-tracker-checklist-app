@@ -10,7 +10,8 @@ class ItemsController < ApplicationController
   end
 
   def create
-    item = Item.new(item_paraitemitem.save
+    item = Item.new(item_params)
+    if item.save
       render json: { success: item, status: "success"}
     else
       render json: { errors: item.errors.full_messages,
