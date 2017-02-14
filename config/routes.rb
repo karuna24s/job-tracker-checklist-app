@@ -2,7 +2,7 @@ Rails.application.routes.draw do
 
 
   devise_for :users
-  root 'application#hello'
+  root 'application#index'
   resources :jobs do
     resources :checklists
   end
