@@ -1,4 +1,4 @@
 (function(){
   angular
-    .module('JobTrackerChecklistApp', ['Devise', 'ngMessages', 'ui.router', 'templates'])
+    .module('JobTrackerChecklistApp', ['ui.router', 'Devise', 'templates'])
 }())

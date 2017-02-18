@@ -1,5 +1,5 @@
 angular
   .module('JobTrackerChecklistApp')
   .controller('HomeCtrl', function($scope, $rootScope, Auth){
-    $scope.hello = "Hello Karuna"
+    $scope.hello = "Hello World"
   })
