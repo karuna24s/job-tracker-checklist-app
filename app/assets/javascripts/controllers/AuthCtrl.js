@@ -1,7 +1,7 @@
 angular
   .module('JobTrackerChecklistApp')
   .controller('AuthCtrl', function($scope, $rootScope, Auth, $state){
-    var config = {headers: {'X-HTTP-Method-Override': 'POST'}}
+    var config = {headers: {'X-HTTP-Method-Override': 'POST'}};
 
     $scope.register = function(){
       Auth.register($scope.user, config).then(function(user){
