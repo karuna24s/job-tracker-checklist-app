@@ -14,7 +14,7 @@ gem "bower-rails", "~> 0.11.0"
 gem 'angular-rails-templates'
 
 gem 'devise'
-
+gem 'json', github: 'flori/json', branch: 'v1.8'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.1'
 # Use Puma as the app server
