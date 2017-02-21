@@ -215,7 +215,7 @@ Devise.setup do |config|
   #
   # Require the `devise-encryptable` gem when using anything other than bcrypt
   # config.encryptor = :sha512
-
+  config.secret_key = 'c22c8984aa74cf3cedea160a13b553a154691a6d0c54c4e1f75ccd1c6ec1688dd75a2bd76e6598760ae1da44847b8c081868f53721254b1868bf0a899019eef8'
   # ==> Scopes configuration
   # Turn scoped views on. Before rendering "sessions/new", it will first check for
   # "users/sessions/new". It's turned off by default because it's slower if you
@@ -240,7 +240,7 @@ Devise.setup do |config|
   #
   # The "*/*" below is required to match Internet Explorer requests.
   # config.navigational_formats = ['*/*', :html]
-  
+
   # The default HTTP method used to sign out a resource. Default is :delete.
   config.sign_out_via = :delete
 
